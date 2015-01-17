@@ -22,7 +22,7 @@ If you are newbie, this is guide for quick build.
 
 First checkout the code from the git repo:
 
-    git clone git@github.com:ansidev/fonts-roboto-slab.git
+    git clone git@github.com:ansidev/fonts-roboto-slab.git fonts-roboto-slab-1.0
 
 Build the binary:
 
@@ -30,7 +30,7 @@ Change to directory fonts-roboto-slab-1.0
 
     cd fonts-roboto-slab-1.0
 
-And then generate file fonts-roboto-slab_{$VERSION}.orig.tar.xz:
+And then generate file fonts-roboto-slab_{$VERSION}.orig.tar.xz (you must install package dh-make first):
 
     dh_make --createorig
 
